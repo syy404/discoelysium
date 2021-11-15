@@ -1,3 +1,16 @@
+---
+layout: post
+title: 函数垃圾箱
+date: 2021-11-15
+author: 笨比sy
+tags: [C++, Newbie]
+comments: false
+toc: true
+pinned: false
+---
+有用没用见到的函数都在这里
+为什么不自己背啊笨蛋( `д´)
+
 ### 函数！
 
 #### 自我定义
