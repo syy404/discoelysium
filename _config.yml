@@ -27,7 +27,7 @@ baseurl: /discoelysium
 avatar: https://github.com/syy404/discoelysium/blob/b2e01a2a9e2c6e3bc68ac55ac452be6c0c15b1cd/images/logo.png
 
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
-favicon: https://github.com/syy404/discoelysium/blob/b2e01a2a9e2c6e3bc68ac55ac452be6c0c15b1cd/images/tab.png
+favicon: 	https://github.com/syy404/discoelysium/blob/master/images/tab.png?raw=true
 
 
 # 菜单中的按钮
