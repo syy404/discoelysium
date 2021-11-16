@@ -16,7 +16,7 @@ url: https://syy404.github.io/discoelysium/
 # 添加你的博客的二级域名，一般来说是你的repository名
 # 如果你的博客的URL是：(http://yourusername.github.io/repository-name)
 # 那么就写成 "/repository-name"
-baseurl: /discoelysium-sy
+baseurl: /discoelysium
 
 
 #
@@ -66,7 +66,7 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # 站点页脚的文字
-footer-text: Copyright (c) 2021 sy
+footer-text: Copyright (c) noting serious
 
 #
 # 评论，注意，请不要同时添加多种不同的评论区
