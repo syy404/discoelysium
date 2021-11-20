@@ -1,3 +1,13 @@
+---
+layout: post
+title: 递归与递推案例
+date: 2021-11-20
+Author: 笨比sy
+tags: [C++, Newbie]
+comments: false
+---
+再、再让我想想ᕕ( ;´д`)ᕗ
+
 # 递推案例
 
 ### *关于递归函数*
