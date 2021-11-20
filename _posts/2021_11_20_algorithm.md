@@ -8,6 +8,8 @@ comments: false
 toc: true
 pinned: false
 ---
+这是一些正在努力理解的算法，之后打算加入更多自己的思考过程( ´_ゝ`)旦
+
 # 算法基础
 
 ## 1.前缀和与差分
