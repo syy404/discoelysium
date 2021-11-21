@@ -1,10 +1,12 @@
 ---
 layout: post
-title: 递归与递推案例
+title: 递归案例
 date: 2021-11-20
-Author: 笨比sy
+author: 笨比sy
 tags: [C++, Newbie]
 comments: false
+toc: true
+pinned: false
 ---
 再、再让我想想ᕕ( ;´д`)ᕗ
 
