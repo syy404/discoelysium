@@ -1,4 +1,4 @@
----
+--- 
 layout: post
 title: 基础语法
 date: 2021-11-08
@@ -7,8 +7,10 @@ tags: [C++, Newbie]
 comments: false
 toc: true
 pinned: false
----
-千寻老师救救我！
+--- 
+千寻老师救救我！ 
+ 
+#基础语法 
 
 ## 1.与或非
 
