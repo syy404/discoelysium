@@ -1,11 +1,12 @@
 ---
 layout: post
-title: 基础但是老忘记的语法
+title: 基础语法
 date: 2021-11-08
-Author: 笨比sy
-categories: 
+author: 笨比sy
 tags: [C++, Newbie]
-comments: true
+comments: false
+toc: true
+pinned: false
 ---
 千寻老师救救我！
 
