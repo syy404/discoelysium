@@ -1,4 +1,4 @@
-```
+---
 layout: post
 title: 基础但是老忘记的语法
 date: 2021-11-08
@@ -6,7 +6,7 @@ Author: 笨比sy
 categories: 
 tags: [C++, Newbie]
 comments: true
-```
+---
 千寻老师救救我！
 
 ## 1.与或非
