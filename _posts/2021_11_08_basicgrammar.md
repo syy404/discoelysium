@@ -7,6 +7,7 @@ categories:
 tags: [C++, Newbie]
 comments: true
 ```
+千寻老师救救我！
 
 ## 1.与或非
 
