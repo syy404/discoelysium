@@ -1,14 +1,12 @@
 ---
-
 layout: post
 title: 递推案例
-date: 2021-11-08
+date: 2021-11-20
 author: 笨比sy
 tags: [C++, Newbie]
 comments: false
-toc: true
 pinned: false
-
+toc: true
 ---
 
 要想了解递推，请先了解递推。
