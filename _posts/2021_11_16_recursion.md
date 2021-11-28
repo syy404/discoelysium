@@ -1,14 +1,17 @@
 ---
+
 layout: post
-title: 递归案例
-date: 2021-11-20
+title: 递推案例
+date: 2021-11-08
 author: 笨比sy
 tags: [C++, Newbie]
 comments: false
 toc: true
 pinned: false
+
 ---
-再、再让我想想ᕕ( ;´д`)ᕗ
+
+要想了解递推，请先了解递推。
 
 # 递推案例
 
@@ -27,6 +30,12 @@ pinned: false
 *3.递推公式*
 
 *4.递推边界（小范围的确定）*
+
+
+
+首先找到基本案例
+
+找到传递关系，即前一状态和后一递推状态的，并且进行普遍尝试
 
 ## 传球游戏
 

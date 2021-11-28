@@ -7,8 +7,9 @@ tags: [C++, Newbie]
 comments: false
 toc: true
 pinned: false
+layout: post
 ---
-这是一些正在努力理解的算法，之后打算加入更多自己的思考过程( ´_ゝ`)旦
+思想。
 
 # 算法基础
 
@@ -226,4 +227,8 @@ for(int i = 1; i <= m; ++i)
 ```
 
 空间复杂度和时间复杂度都是*O*(*m*)
+
+
+
+先找到二分法的上下限
 
