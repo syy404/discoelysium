@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 基础但是老忘记的语法
+title: basic grammar
 date: 2021-11-08
 author: 笨比sy
 tags: [C++, Newbie]
 comments: false
-toc: true
 pinned: false
+toc: true
 ---
 
 千寻老师救救我！
