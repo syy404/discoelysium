@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 函数！
+title: 函树( ´_ゝ`)
 date: 2021-11-20
 author: 笨比sy
 tags: [C++, Newbie]
 comments: false
-toc: true
 pinned: false
+toc: true
 ---
 
 为什么这个笨蛋不自己背呢（悲）
