@@ -17,7 +17,7 @@ pinned: false
 
 起因是群友在群里提了个问题，人工智能有没有权利决定人的生死？比如对于电车难题，让AI去选择就可以了。
 
-<img src="D:\114514work\ACM\benbisy\pic\fromrailwaytoJTB1.png" alt="fromrailwaytoJTB1" style="zoom:25%;" />
+<img src="https://i.loli.net/2021/11/29/Nsuvr5EFc1VJe87.jpg" alt="fromrailwaytoJTB1" style="zoom:25%;" />
 
 当时的第一反应，您要找的是不是：Psycho-Pass
 
@@ -33,7 +33,7 @@ pinned: false
 
 这时群里有人提出了一连串令人窒息的名词。
 
-<img src="C:\Users\sy\AppData\Roaming\Typora\typora-user-images\image-20211124110127299.png" alt="image-20211124110127299" style="zoom:25%;" />
+![fromwailwaytoJTB5](https://i.loli.net/2021/11/29/pykBKlEIAnFQGNO.png)
 
 随后我陷入了越查越多，越多越查的悲剧循环( ´_ゝ`)旦
 
@@ -89,7 +89,7 @@ pinned: false
 
 阅读百科的过程我大概又新打开了10个标签页，连环着去查这些看不懂的名词是什么意思。
 
-![fromwailwaytoJTB2](D:\114514work\ACM\benbisy\pic\fromwailwaytoJTB2.png)
+![fromwailwaytoJTB2](https://i.loli.net/2021/11/29/C27ViOfpaob1KgX.png)
 
 ↑一个窗口已经放不下了orz↑
 
@@ -120,7 +120,7 @@ pinned: false
 
 ###### 那么线性分类又是什么呢？
 
-<img src="D:\114514work\ACM\benbisy\pic\fromrailwaytoJTB3.png" alt="fromrailwaytoJTB3" style="zoom:25%;" />
+<img src="https://i.loli.net/2021/11/29/C27ViOfpaob1KgX.png" alt="fromrailwaytoJTB3" style="zoom:25%;" />
 
 看看它，就是这玩意啦(`ヮ´ )
 
@@ -136,7 +136,7 @@ return 0；//真的不能再继续讲下去了
 >
 > 而在图1中我们可以看到，H2和H3都可以正确的将training set进行分类，但细细想来，使用H2进行分类的话，我们对于靠近蓝线的几个训练样例其实是不敢说100%的，但对于离蓝线最远的小球，我们却很有把握。这也是H3这条SVM红线出现的原因：尽量让两侧的训练样例**远离决策边界**，从而让我们的分类系统有把握对每个球Say Absolutely。
 >
-> <img src="D:\114514work\ACM\benbisy\pic\fromrailwaytoJTB4.png" alt="fromrailwaytoJTB4" style="zoom:25%;" />
+> <img src="https://i.loli.net/2021/11/29/oaEYZc1iujMdK8b.png" alt="fromrailwaytoJTB4" style="zoom:25%;" />
 
 我觉得这个应该足够好理解，但是真正的决策边界其实be like↓
 
