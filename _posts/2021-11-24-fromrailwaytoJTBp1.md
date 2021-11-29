@@ -89,7 +89,7 @@ pinned: false
 
 阅读百科的过程我大概又新打开了10个标签页，连环着去查这些看不懂的名词是什么意思。
 
-![fromwailwaytoJTB2](https://i.loli.net/2021/11/29/C27ViOfpaob1KgX.png)
+![fromwailwaytoJTB2](https://i.loli.net/2021/11/29/F9qV1J6BmOE8Tvf.png)
 
 ↑一个窗口已经放不下了orz↑
 
