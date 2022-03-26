@@ -72,7 +72,7 @@ footer-text: Copyright (c) noting serious
 #
 
 # 输入Disqus shortname，即可添加评论区，请查阅文档，设置自己的disqus站点，不要继续使用我的站点loffer
-disqus: loffer #shortname
+disqus:  #shortname
 
 # 输入Gitalk相关设定，即可添加评论区，具体请看教程
 gitalk:
@@ -106,7 +106,7 @@ kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
+    css_class: #'highlight'
 
 # Set the Sass partials directory, as we're using @imports
 sass:
