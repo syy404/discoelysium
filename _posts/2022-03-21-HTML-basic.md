@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 🐒HTML入门
-date: 2022-03-23
+title: 🐒HTML入门(更新到第五章超链接)
+date: 2022-03-29
 author: 笨比sy
 tags: [HTML,Newbie]
 comments: false
@@ -9,7 +9,7 @@ toc: true
 pinned: false
 ---
 
-救世啊（悲）
+救世啊（悲）⚠本文为防止markdown自动吃掉HTML代码，在部分元素声明前多加了一道斜杠，参考时请去除食用（
 
 <img src="https://cdn.jsdelivr.net/gh/syy404/photospace/202203231152182.png" alt="image-20220323115253921" style="zoom:25%;" />
 
@@ -57,45 +57,49 @@ pinned: false
 
 #### 语法
 
+##### 文字
+
 - **p**
 
 - em
 
-<em>文字</em>
+​		</em>文字</em>
 
 - strong
 
-<strong>文字</strong>
+​		</strong>文字</strong>
 
 - span
 
-对元素进行区隔使其以不同样式显示（不具有任何样式，需要结合CSS
+​		对元素进行区隔使其以不同样式显示（不具有任何样式，需要结合CSS
 
-<span>段落文字</span>
+​		</span>段落文字</span>
 
 - br
 
-段内换行，使后面的内容显示于下一行，无空行（仍属于同一段落）
+​		段内换行，使后面的内容显示于下一行，无空行（仍属于同一段落）
 
-文字<br>文字
+​		文字</br>文字
 
 - sup/sub
 
-上标superscript，下标subscript
+​		上标superscript，下标subscript
 
-<sup>文字</sup><sub>文字</sub>
+​		</sup>文字</sup>//上标
+
+​		</sub>文字</sub>
 
 - blockquote
 
 块引用，默认为左右两侧缩进
 
-<blockquote>引用的文字</blockquote>
+</blockquote>引用的文字</blockquote>
 
 - pre
 
 代码块，保留空格和换行符
 
-<pre>文字   文字</pre>
+</pre>文字   文字</pre>
 
 ###### #召唤术
 
@@ -105,57 +109,61 @@ pinned: false
 
 - ul
 
-无序列表unordered list 
+​		无序列表unordered list 
 
-<ul>
-    <li>list 1</li>
-    <li>list 2</li>
-</ul>
+​		</ul>
+​    		<li>list 1</li>
+​    		<li>list 2</li>
+​		</ul>
+
 
 - ol
 
-有序列表ordered list
+​		有序列表ordered list
 
-<ol>
-    <li>list 1</li>
-    <li>list 2</li>
-</ol>
+​		</ol>
+​			<li>list 1</li>
+​			<li>list 2</li>
+​		</ol>
 
-type可以是A/a/I/i/1
+
+​		type可以是A/a/I/i/1
 
 - dl
 
-定义列表definition list
+​		定义列表definition list
 
-<dl>
-	<dt>definition term</dt>
-    <dd>definition description</dd>
-</dl>
+​		</dl>
+​			<dt>definition term</dt>
+​    		<dd>definition description</dd>
+​		</dl>
+
 **表格**
 
-<table>
-    <caption>title</caption>
-    <tr>
-        <th>table header1</th>
-        <th>table header2</th>
-    </tr>
-    <tr>
-        <td>table data1</td>
-        <td>table data2</td>
-    </tr>
-</table>
+​		</table>
+​    		<caption>title</caption>
+​    		<tr>
+​        		<th>table header1</th>
+​        		<th>table header2</th>
+​    		</tr>
+​    		<tr>
+​        		<td>table data1</td>
+​        		<td>table data2</td>
+​    		</tr>
+​		</table>
 
-tr=table row
 
-thead=表格头部信息
+​		tr=table row
 
-tbody=表格主体信息
+​		thead=表格头部信息
 
-tfoot=表格页脚信息
+​		tbody=表格主体信息
 
-colspan=跨列合并
+​		tfoot=表格页脚信息
 
-rowspan=跨行合并
+​		colspan=跨列合并
+
+​		rowspan=跨行合并
 
 **特殊字符和注释**
 
@@ -164,6 +172,54 @@ rowspan=跨行合并
 ![image-20220304105102756](https://cdn.jsdelivr.net/gh/syy404/photospace/202203230954830.png)
 
 注释大全：https://www.w3school.com.cn/tags/index.asp
+
+##### 图片和音视频
+
+- img元素
+
+  </img src= "images/logo.png" alt="一个漏勾" width="x" height="y">
+
+  - img元素为单标签元素
+
+  - src为绝对路径或url（故图像内容不包括在网页中）
+
+  - alt为描述信息
+  - width和height为长宽
+
+- audio元素
+
+  - </audio ||:属性=“属性值”></audio>
+
+  - | src      | url        |
+    | -------- | ---------- |
+    | controls | 音频控件   |
+    | loop     | 循环播放   |
+    | autoplay | 自动播放   |
+    | muted    | 静音       |
+    | preload  | 预加载音频 |
+
+  - 支持mp3、ogg、wav
+
+  - source元素指定多个媒体源
+
+    - </audio> <source src="xxx" type="audio/ogg"> <source src="yyy" type="audio/mp3">
+      </audio>
+
+- video元素
+
+  - 同上
+
+  - | src          | url                    |
+    | ------------ | ---------------------- |
+    | width/height |                        |
+    | poster       | 封面图，无则默认第一帧 |
+    | controls     | 控件                   |
+    | autoplay     |                        |
+    | loop         |                        |
+    | muted        |                        |
+    | preload      |                        |
+
+  - 支持mp4、ogg、WebM
 
 #### 元素
 
@@ -201,6 +257,7 @@ rowspan=跨行合并
         property:value;//样式属性&属性值
 }
 </style>
+
 **单位**
 
 - 绝对单位
@@ -222,7 +279,7 @@ cm\mm
 
 <img src="https://cdn.jsdelivr.net/gh/syy404/photospace/202203230954752.png" alt="image-20220313110058734" style="zoom:50%;" />
 
-**margin**
+**margin**    #召唤术：m0 [tab]
 
 | 分开写              | 简写                                 |
 | ------------------- | ------------------------------------ |
@@ -231,7 +288,7 @@ cm\mm
 | margin-bottom: 0;   | margin: 0 auto 10px;//上 左右 下     |
 | margin-left: auto;  | margin: 10px 20px 30px 40px;//顺时针 |
 
-**padding**
+**padding**    #召唤术：p0 [tab]
 
 | 分开写 | 简写                                |
 | ------ | ----------------------------------- |
@@ -245,6 +302,26 @@ cm\mm
 <img src="https://cdn.jsdelivr.net/gh/syy404/photospace/202203230954068.png" alt="image-20220313111611725" style="zoom:50%;" />
 
 e.g.	border-top: 1px solid #000;
+
+**#border-radius** 圆角边框
+
+衍生：border-top-left-radius;	border-bottom-right-radius
+
+- : 50px;    #4个角为半径50px的圆弧
+- :15px 50px;    #左上右下15px，右上左下50px
+- :50%;    #圆形
+- :height/2;    #胶囊( ﾟ∀ﾟ)
+
+**box-shadow**
+
+| 属性值   | 说明                                                     |
+| -------- | -------------------------------------------------------- |
+| h-offset | 必需，阴影的水平偏移，允许负值                           |
+| v-offset | 必需，阴影的垂直偏移，允许负值                           |
+| blur     | 可选，阴影模糊半径，默认为0                              |
+| spread   | 可选，阴影扩展半径。正值表示扩大，负值表示 缩小，默认为0 |
+| color    | 可选，阴影的颜色，默认黑色                               |
+| inset    | 可选，将外部阴影(outset)改为内部阴影                     |
 
 **CSS重置**
 
@@ -280,7 +357,119 @@ rgba(0,0,0,0)~(255,255,255,1.0)	rgb(0%,100%,0%)
 
 *建立设计规范*
 
+#### 常用的文本样式
+
+| 文字颜色     | color            |                                   |
+| :----------- | ---------------- | --------------------------------- |
+| 背景颜色     | background-color | 不可继承                          |
+| 字体         | font-family      | 设置多个字体;可以继承             |
+| 字号         | font-size        | px                                |
+| 加粗方式     | font-weight      | 见下                              |
+| 斜体         | font-style       | normal;italic;oblique             |
+| 字间距       | letter-spacing   | 1px                               |
+| 行高         | line-height      | 2(2倍);32px                       |
+| 首行缩进     | text-indent      | 2em（两个相对单位）               |
+| 水平对齐方式 | text-align       | left;center;right;justify;inherit |
+
+**Web字体设置**：@font-face规则
+
+```html
+@font-face
+{
+​	font-family: shouxie;
+​	src: url("font/FZXingKXJ.OTF");
+}#字体定义
+
+p{
+	font-family: shouxie;
+}
+```
+
+
+
+<img src="https://cdn.jsdelivr.net/gh/syy404/photospace/202203230954821.png" alt="image-20220317111924177" style="zoom:50%;" />
+
+![image-20220324115218380](https://cdn.jsdelivr.net/gh/syy404/photospace/202203241152598.png)
+
+<img src="https://cdn.jsdelivr.net/gh/syy404/photospace/202203230954703.png" alt="image-20220317111942493" style="zoom:50%;" />
+
+#### 常用的图像和视频样式
+
+**图像大小**
+
+img{
+
+​	width: 100%;#使宽度与所在容器宽度相同
+
+​	//max-width: 100%;#使宽度与原图像宽相同	
+
+​	height: auto;
+
+}
+
+*video元素同理*
+
+**图像和文字对齐**
+
+| 默认对齐（和基线，存在间隙 | baseline             |
+| -------------------------- | -------------------- |
+| 垂直顶部对齐（和大写线     | vertical-align: top; |
+| 居中（和中线               | middle               |
+| 底部（和下缘线             | bottom               |
+
+**背景图像**
+
+- background-image: url("...")
+  - url也可以换成
+    - linear-gradient(red,yellow)红到黄的线性渐变
+    - radial-gradient(red,yellow)红到黄的径向渐变
+- background-repeat: 
+  - repeat//水平垂直均重复（默认
+  - repeat-x//水平重复
+  - repeat-y//垂直
+  - no-repeat//不重复
+- background-position: x y;//数值百分比皆可
+  - x
+    - left
+    - center
+    - right
+  - y
+    - top
+    - center
+    - bottom
+- background-attachment:
+  - scroll//随网页一起滚动
+  - fixed//固定
+- background-size: x//具体值
+  - auto//原尺寸
+  - contain//完全装进去
+  - cover//完全覆盖掉
+
+
+
+#### CSS和HTML结合
+
+**内部样式**
+
+​	style元素
+
+**行内样式**
+
+​	网页元素的style属性，即对某个元素单设
+
+​	</p style="font-size:24px">。。。</p>
+
+**外部样式**
+
+​	丢外边，网站内用link元素
+
+​	<link
+
 #### 选择器
+
+​	优先级：
+
+​	行内>ID选择器>类选择器>类型选择器
 
 <img src="https://cdn.jsdelivr.net/gh/syy404/photospace/202203230955362.png" alt="image-20220314184055126" style="zoom:50%;" />
 
@@ -304,13 +493,10 @@ p{
 
 `#meta_content`
 
-```
+```html
 #container{
-
 ​	width:677px;
-
 ​	margin:0 auto;
-
 }
 ```
 
@@ -334,30 +520,77 @@ p{
 
 **通配符选择器**
 
-```
+```html
 *{
-
 ​	margin:0;
-
 ​	padding:0
-
 }
 ```
 
-#### 常用的文本样式
+**伪类选择器**
 
-| 文字颜色     | color            |                       |
-| :----------- | ---------------- | --------------------- |
-| 背景颜色     | background-color | 不可继承              |
-| 字体         | font-family      | 设置多个字体;可以继承 |
-| 字号         | font-size        | px                    |
-| 加粗方式     | font-weight      | 见下                  |
-| 斜体         | font-style       | normal;italic;oblique |
-| 字间距       | letter-spacing   |                       |
-| 行高         | line-height      |                       |
-| 首行缩进     | text-indent      |                       |
-| 水平对齐方式 | text-align       | center                |
+伪类：pseudo-class
 
-<img src="https://cdn.jsdelivr.net/gh/syy404/photospace/202203230954821.png" alt="image-20220317111924177" style="zoom:50%;" />
+超链接参数
 
-<img src="https://cdn.jsdelivr.net/gh/syy404/photospace/202203230954703.png" alt="image-20220317111942493" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/syy404/photospace/202203261254206.png" alt="image-20220326125417023" style="zoom:50%;" />
+
+​	顺序：LoVe HAte
+
+```html
+a:link,a:visited{
+	color: #A40000;
+	text-decoration: none;
+}
+```
+
+特定位置参数
+
+<img src="https://cdn.jsdelivr.net/gh/syy404/photospace/202203261255963.png" alt="image-20220326125531867" style="zoom:50%;" />
+
+e.g. p:nth-child(odd)
+
+**伪元素选择器**
+
+- 能够在网页文档中插入额外的元素
+
+![image-20220326131813691](https://cdn.jsdelivr.net/gh/syy404/photospace/202203261318797.png)
+
+## 移动端
+
+**视口**
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</meta>
+
+
+**max-width**
+
+设置以避免进一步扩大
+
+**padding**
+
+留白
+
+## 超链接
+
+~~link startt!!~~
+
+### anchor
+
+</a href="路径" target="连接目标在何处打开">title</a>
+
+**herf**
+
+- 绝对路径 url
+- 相对路径 /xxx/yyy.html
+- 锚点 #top    回到顶部
+- 电子邮件 sysmail@mail.com
+
+- 空链接 #
+
+**target**
+
+- 打开链接 _self
+- new tab打开链接 _blank
+
