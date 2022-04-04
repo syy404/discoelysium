@@ -323,3 +323,28 @@ pre.highlight {
 }
 
 /* Literal.Number.Integer.Long */
+.sql-hl-keyword {
+  color: #094152;
+}
+
+.sql-hl-function {
+  color: #194f6b;
+}
+
+.sql-hl-number {
+  color: #c995a2;
+}
+
+.sql-hl-string {
+  color: #c995a2;
+}
+
+.sql-hl-special {
+  color: #7fa6f7;
+}
+
+.sql-hl-bracket {
+  color: #474747;
+}
+
+/*syntax of sql*/
