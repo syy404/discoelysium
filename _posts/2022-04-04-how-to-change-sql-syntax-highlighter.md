@@ -79,7 +79,7 @@ https://www.angularfix.com/2021/12/how-to-modify-syntax-highlighting-in.html
 
 https://github.com/rouge-ruby/rouge
 
-<img src="C:\Users\sy\AppData\Roaming\Typora\typora-user-images\image-20220407200620169.png" alt="image-20220407200620169" style="zoom:33%;" />
+<img src="https://cdn.jsdelivr.net/gh/syy404/photospace/202204102030400.png" alt="image-20220407200620169" style="zoom:33%;" />
 
 这是JekyII所使用的Rouge Highlighter，能够找到所有相关的定义文档。同时，也可以在这个网站中找到Rouge的各种主题支持👇
 
@@ -107,8 +107,8 @@ https://github.com/brazacz/rouge-themes
 
 https://t.me/prejudices404
 
-<img src="https://cdn.jsdelivr.net/gh/syy404/photospace/202204072025144.png" alt="image-20220407202526031" style="zoom:33%;" />
+<img src="https://cdn.jsdelivr.net/gh/syy404/photospace/202204072025144.png" alt="image-20220407202526031" style="zoom: 67%;" />
 
 顺便放一个公众号在这里，虽然还没有开始运营(;´ヮ`)7
 
-<img src="https://cdn.jsdelivr.net/gh/syy404/photospace/202204072051800.png" alt="image-20220407205022062" style="zoom:33%;" />
+<img src="https://cdn.jsdelivr.net/gh/syy404/photospace/202204072051800.png" alt="image-20220407205022062" style="zoom: 80%;" />
