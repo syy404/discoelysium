@@ -31,13 +31,13 @@ favicon: https://raw.githubusercontent.com/syy404/discoelysium/master/images/tab
 
 # 菜单中的按钮
 navigation:
-  - name: 首页
+  - name: index
     url: /
-  - name: 关于
+  - name: about
     url: /about
-  - name: 归档
+  - name: archive
     url: /archive
-  - name: 标签
+  - name: tags
     url: /tags
 
 # 每页的文章数
