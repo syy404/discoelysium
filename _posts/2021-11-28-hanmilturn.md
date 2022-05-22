@@ -5,7 +5,7 @@ date: 2021-11-24
 author: sy
 tags: [日常, 杂谈]
 comments: false
-toc: true
+toc: false
 pinned: false
 ---
 

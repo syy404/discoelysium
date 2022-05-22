@@ -5,7 +5,7 @@ date: 2022-4-4
 author: 笨比sy
 tags: [CSS, Newbie]
 comments: false
-toc: true
+toc: false
 pinned: false
 layout: post
 ---
