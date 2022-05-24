@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 🐒HTML入门(更新到响应式网页)
-date: 2022-05-22
+title: 🐒HTML入门(更新到CSS布局)
+date: 2022-05-24
 author: 笨比sy
 tags: [HTML,Newbie]
 comments: false
@@ -10,8 +10,6 @@ pinned: false
 ---
 
 救世啊⚠本文为防止markdown自动吃掉HTML代码，在部分元素声明前多加了一道斜杠，参考时请去除食用（
-
-<!-- more -->
 
 <img src="https://cdn.jsdelivr.net/gh/syy404/photospace/202203231152182.png" alt="image-20220323115253921" style="zoom:25%;" />
 
@@ -720,6 +718,39 @@ img {
 - new tab打开链接 _blank
 
 ## 布局
+
+### 审美
+
+首先要建立起正确的审美观念，个人觉得这还挺重要的。
+
+本节为个人锐评(=ﾟωﾟ)=
+
+1. 黄金分割
+
+   ![image-20220524154939901](https://cdn.jsdelivr.net/gh/syy404/photospace/202205241549105.png)
+
+   案例是推特的。这样的布局比较适合简单排版，但是对富文本的呈现并不算太友好，可塑性也不高，不是很喜欢（
+
+2. 面包屑导航<img src="https://cdn.jsdelivr.net/gh/syy404/photospace/202205241553693.png" alt="image-20220524155305635" style="zoom:33%;" />
+
+3. 标签：不要小瞧了tag，这是现在挺火的多形式呈现（不会说）模式的中心，notion飞书文档什么的都在用
+
+4. 焦点图：参考公众号头图
+
+5. [卡片式](https://dribbble.com/)：个人比较喜欢的排版，灵活多变，适合复杂的排版和网页模式
+
+6. 图文列表：最基础的图文排布格式，不会出错，非常严谨
+
+   - 实现：图片 `float:left`；文字 `float:right`；整体: `flex`
+
+
+老师提供了以960p/980p为标准的基本布局，可以参考。其实基本布局也能玩出花来，只要人有好的审美和设计(｀･ω･)
+
+![image-20220524164845717](https://cdn.jsdelivr.net/gh/syy404/photospace/202205241648800.png)
+
+![image-20220524164908764](https://cdn.jsdelivr.net/gh/syy404/photospace/202205241649825.png)
+
+![image-20220524164932580](https://cdn.jsdelivr.net/gh/syy404/photospace/202205241649669.png)
 
 ### 文档流 flow
 
