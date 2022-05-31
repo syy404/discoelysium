@@ -11,7 +11,9 @@ pinned: false
 
 救世啊⚠本文为防止markdown自动吃掉HTML代码，在部分元素声明前多加了一道斜杠，参考时请去除食用（
 
-<img src="https://cdn.jsdelivr.net/gh/syy404/photospace/202203231152182.png" alt="image-20220323115253921" style="zoom:25%;" />
+<img src="https://cdn.jsdelivr.net/gh/syy404/photospace/202203231152182.png" alt="image-20220323115253921" style="zoom:10%;" />
+
+<!-- more -->
 
 ## 语法和结构
 
