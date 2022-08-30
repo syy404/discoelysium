@@ -5,7 +5,7 @@ date: 2022-07-27
 author: syy
 tags: [Newbie,N]
 comments: false
-toc: true
+toc: false
 pinned: false
 
 ---
