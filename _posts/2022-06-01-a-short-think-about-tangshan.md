@@ -1,6 +1,6 @@
 ---
 layout: post
-title: a short think
+title: 沉默是一种态度吗？
 date: 2022-06-01
 author: syy
 tags: [Newbie,J]
@@ -9,7 +9,7 @@ toc: false
 pinned: false
 ---
 
-关于唐山的事情，sy的锐评如下。
+关于唐山的事情。
 
 <!-- more -->
 
