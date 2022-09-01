@@ -24,7 +24,8 @@ baseurl: /discoelysium
 #
 
 # 你的博客logo图片URL，建议尺寸不超过300px × 300px
-avatar: https://cdn.jsdelivr.net/gh/syy404/photospace/202203232027951.png
+avatar: https://cdn.jsdelivr.net/gh/syy404/images/logo.png
+
 
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
 favicon: https://raw.githubusercontent.com/syy404/discoelysium/master/images/tab.png
