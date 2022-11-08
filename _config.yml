@@ -28,13 +28,13 @@ favicon: https://raw.githubusercontent.com/syy404/discoelysium/master/images/tab
 
 # 菜单中的按钮
 navigation:
-  - name: index
+  - name: INDEX
     url: /
-  - name: about
+  - name: ABOUT
     url: /about
-  - name: archive
+  - name: ARCHIVE
     url: /archive
-  - name: tags
+  - name: TAGS
     url: /tags
 
 # 每页的文章数
@@ -60,7 +60,6 @@ footer-links:
   tumblr: # https://<username>.tumblr.com
   twitter: # https://www.twitter.com/<your_twitter_username> 
   youtube: # channel/<your_long_string> or user/<user-name>
-  telegram: prejudices404
 
 
 # 站点页脚的文字
