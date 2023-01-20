@@ -190,4 +190,7 @@ return 0；//真的不能再继续讲下去了
 
 手动分个p，已经写到五千字了。
 
-part2 is typing.
+~~part2 is typing.~~
+
+part2 has been updated.
+
